@@ -1,42 +1,27 @@
 # Real-Time-Indoor-Temperature-Humidity-Gas-Dust-Monitoring-
 #define BLYNK_TEMPLATE_ID "TMPL6o0HmkNZh"
-
 #define BLYNK_TEMPLATE_NAME "Air Quality 2"
 
 #define BLYNK_PRINT Serial
-
 #include <ESP8266WiFi.h>
-
 #include <BlynkSimpleEsp8266.h>
-
 #include <DHT.h>
 
 // Blynk Auth Token
-
 char auth[] = "bwY36Vrf5wFF56JSms-KitPNHyAumhiV";
 
 // WiFi credentials
-
 char ssid[] = "APA";  // Replace with your WiFi SSID
-
 char pass[] = "wokwiiii";  // Replace with your WiFi Password
 
 // Pin definitions
-
 #define DHTPIN D5
-
 #define DHTTYPE DHT11
-
 #define MQ135PIN A0
-
 #define LEDPIN D0
-
 #define BUZZERPIN D6
-
 #define RELAYPIN D2
-
 #define DUST_LED_PIN D7
-
 #define DUST_ANALOG_PIN D3
 
 // Create instances
