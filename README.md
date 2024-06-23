@@ -1,6 +1,7 @@
 # Real-Time-Indoor-Temperature-Humidity-Gas-Dust-Monitoring-
 
 #define BLYNK_TEMPLATE_ID "TMPL6o0HmkNZh"
+
 #define BLYNK_TEMPLATE_NAME "Air Quality 2"
 
 #define BLYNK_PRINT Serial
